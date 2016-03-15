@@ -1,0 +1,92 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:  Helvetica,"Microsoft Yahei", Arial, sans-serif;
+	background-color:#f2f6ff;
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.top{
+	width:100%;
+	margin:0 auto;
+	height: 91px;
+	background:#e1e6ec url(image/logo.png)center;
+}
+
+.container{
+	width: 1366px;
+	margin: 0 auto;
+	height: auto;
+}
+#container,#container1,#container2,#container3{
+	margin-top:200px;
+	float:left;
+	width: 25%;
+	height:200px;
+}
+.line{
+	top:243px;
+	left:213px;
+
+}
+.color,.color-two,.color-three,.color-four{
+	top:50px;
+	font-size: 12px;
+	color: #06318f;
+	font-weight: 600;
+}
+.color{
+	left:100px;
+}
+.color-two{
+	left: 430px;
+}
+.color-three{
+	left: 760px;
+}
+.color-four{
+	left:1090px;
+}
+.color .content,.color-two .content,.color-three .content,.color-four .content{
+   margin:8px 0px;
+}
+.left{
+	width: 18px;
+	height: 13px;float:left;
+	margin:2px 8px 0px 0px;
+	background-color:#fe0000;
+	border-radius: 2px;
+}
+/*.content-two .left{
+	background-color:#f79499;
+}*/
+
+.line1{
+	top:243px;
+	left:555px;
+}
+.line2{
+	top:243px;
+	left:895px;
+}
+.line3{
+	top:243px;
+	left:1225px;
+}
+.line p,.line1 p,.line2 p,.line3 p{
+	top:-12px;
+	position: absolute;
+	width: 130px;
+	left:65px;
+	padding:0px;
+	margin: 0px;
+	z-index: 1;
+	letter-spacing: 1px;
+	color:#06318f;
+	font-size: 14px;
+}

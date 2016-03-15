@@ -1,0 +1,102 @@
+body{
+	margin:0px;
+	padding:0px;
+	font-family:  Helvetica,"Microsoft Yahei", Arial, sans-serif;
+	background-color:#f2f6ff;
+}
+
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.top{
+	width: 100%;
+	margin:0 auto;
+	height: 91px;
+	background:#e1e6ec url(image/logo.png)center;
+}
+
+.container{
+	width: 1366px;
+	margin: 0 auto;
+	height: auto;
+}
+#container,#container1,#container2,#container3{
+	margin-top:100px;
+	/*float:left;*/
+	/*width: 25%;*/
+	height:200px;
+}
+#container5{
+	height:300px;
+	margin-top:200px;
+}
+.color{
+	font-size: 12px;
+	color: #06318f;
+	font-weight: 600;
+	top:-60px;
+	left: 50px;
+}
+.color .content{
+	margin:8px 0px;
+}
+.left_{
+	width: 18px;
+	height: 13px;float:left;
+	margin:2px 8px 0px 0px;
+	border-radius: 2px;
+
+}
+.line{
+	top:43px;
+	left:213px;
+
+}
+.line1{
+	top:43px;
+	left:213px;
+}
+.line2{
+	top:43px;
+	left:213px;
+}
+.line3{
+	top:43px;
+	left:203px;
+}
+.line5{
+	top:73px;
+	left:430px;
+}
+.line p,.line1 p,.line2 p,.line3 p,.line5 p{
+	top:-12px;
+	position: absolute;
+	width: 130px;
+	left:65px;
+	padding:0px;
+	margin: 0px;
+	z-index: 1;
+	letter-spacing: 1px;
+	color:#06318f;
+	font-size: 14px;
+}
+
+/*第二个饼图*/
+.left{
+	width:25%;
+	float:left; 
+	/*padding-right:10%;*/
+}
+.right{
+	width: 25%;
+	float:right;
+	/*padding-right:10%;*/
+}
+.center{
+	width: 50%;
+	/*float: left;*/
+	float:left;
+}
